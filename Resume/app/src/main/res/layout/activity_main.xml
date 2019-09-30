@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp" android:id="@+id/textView" android:layout_weight="0"
+            tools:text="Monika Rangta" app:lineHeight="2dp" android:textSize="30sp" android:textStyle="bold"
+            android:textColorHighlight="#E91E63" android:textColor="#E91E63" android:textAlignment="center"
+            android:layout_margin="10dp" android:text="@string/monika_rangta"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp" tools:srcCompat="@drawable/avatar" android:id="@+id/imageView"
+            android:layout_weight="0" android:contentDescription="@string/todo"
+            android:layout_margin="10dp" app:srcCompat="@drawable/avatar" android:adjustViewBounds="false"
+            android:scaleType="fitCenter"/>
+    <Button
+            android:text="@string/work_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/workHistoryButton" android:layout_weight="0"
+            android:layout_margin="10dp"/>
+    <Button
+            android:text="@string/call_monika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/callButton" android:layout_weight="0"
+            android:layout_margin="10dp"/>
+    <Button
+            android:text="@string/email_monika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/emailButton" android:layout_weight="0"
+            android:layout_margin="10dp"/>
+</LinearLayout>
